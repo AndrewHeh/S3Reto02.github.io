@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+</head>
+<body>
+    
+    <header><h1>Tienda Muebles</h1></header>
+    
+    <a href="./../index.html">INICIO</a>
+    <a href="./../nosotros/nosotros.html">NOSOTROS</a>
+    <a href="./../tienda/tienda.html">TIENDA</a>
+    <a href="./../blog/blog.html">BLOG</a>
+    <a href="./../galeria/galeria.html">GALERIA</a>
+    <a href="./contacto.html">CONTACTO</a>
+
+    
+    <h2>CONTACTO</h2>
+    <form action="#">
+    <fieldset>
+        <legend>TUS DATOS</legend>
+        <div class="nombre">
+            <label for="nombre">Nombre: </label>
+            <input id="nombre" type="text" placeholder="Tu Nombre" required="">
+        </div>
+
+        <div class="Apellido">
+            <label for="Apellido">Asunto:</label>
+            <input id="Apellido" type="text" placeholder="Tu Apellido" required="">
+        </div>
+
+        <div class="email">
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" placeholder="Tu Email">
+        </div>
+
+        <div class="telefono">
+            <label for="tel">Teléfono:</label>
+            <input id="tel" type="tel" placeholder="Tu Teléfono">
+        </div>
+
+        <div class="Mensaje">
+            <label for="Msj">Mensaje:</label>
+            <textarea placeholder="type"></textarea>
+        </div>
+        
+    </fieldset>
+
+    <fieldset>
+
+        <legend>PAIS</legend>
+        <label for="Country">Payment Method</label>
+        <select name="Country" id="Country">
+            <option value="#" >-seleccione-</option>
+            <option value="#">Mexico</option>
+            <option value="#">Peru</option>
+            <option value="#">Colombia</option>
+            <option value="#">Argentina</option>
+            <option value="#">España</option>
+            <option value="#">Chile</option>
+        </select>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Informacion Extra</legend>
+
+        <div class="client">
+        <label for="client" >Cliente <input type="checkbox"></label>
+        </div>
+        
+        <div class="proov">
+        <label for="proov" >Proveedor <input type="checkbox"></label>
+        </div>
+
+        <div  class="Categoria">
+            <label for="Categoria">Categoia de Interes</label>
+           
+
+         <!-- Aqui no lleva select, va el input list y datalist-->
+                <input list="Categoria" name="Categoria">
+                <datalist id="Categoria">
+                    <option value="Cocina"></option>
+                    <option value="Exterior"></option>
+                    <option value="Recamaras"></option>
+                    <option value="Oficina"></option>
+                    <option value="Televisión"></option>
+                </datalist>
+            </div>
+    </fieldset>
+
+    <button type="submit">ENVIAR FORMULARIO</button>
+
+</form>
+    <footer>
+        <h3>Categorias</h3>
+        <a href="#">Cocina</a>  
+        <a href="#">Oficina</a>  
+        <a href="#">Jardin</a>
+        <a href="#">Cochera</a>
+        <a href="#">Dormitorio</a>
+
+        <h3>Sobre Nosotros</h3>
+        <a href="#">Nuestra Historia</a>
+        <a href="#">Mision,Vision y Valores</a>
+        <a href="#">Carreras</a>
+        <a href="#">Politica de Privacidad</a>
+        <a href="#">Terminos del Servicio</a>
+
+        <h3>Soporte</h3>
+        <a href="#">Preguntas Frecuentes</a>
+        <a href="#">Ayuda en Linea</a>
+        <a href="#">Confianza y Seguridad</a>
+    </footer>
+
+    <!--COPYRIGHT-->
+    <p>Todos los derechos reservados - Tienda Mueble</p>
+
+</body>
+</html>
