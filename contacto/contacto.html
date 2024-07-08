@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACTO</title>
+    <link rel="stylesheet" href="./../style.css">
 </head>
 <body>
     
-    <header><h1>Tienda Muebles</h1></header>
-    
+    <header><h1>Tienda <span>Muebles</span></h1></header>
+    <div class="contenedor-apartados">
+        <div class="apartados">
     <a href="./../index.html">INICIO</a>
     <a href="./../nosotros/nosotros.html">NOSOTROS</a>
     <a href="./../tienda/tienda.html">TIENDA</a>
     <a href="./../blog/blog.html">BLOG</a>
     <a href="./../galeria/galeria.html">GALERIA</a>
     <a href="./contacto.html">CONTACTO</a>
-
+    </div>
+        </div>
     
     <h2>CONTACTO</h2>
     <form action="#">
@@ -95,29 +98,40 @@
     <button type="submit">ENVIAR FORMULARIO</button>
 
 </form>
-    <footer>
-        <h3>Categorias</h3>
-        <a href="#">Cocina</a>  
-        <a href="#">Oficina</a>  
-        <a href="#">Jardin</a>
-        <a href="#">Cochera</a>
-        <a href="#">Dormitorio</a>
+<footer>
+    <div class="grid-footer contenedor">
+        <div>
+            <h3>Categorías</h3>
+            <nav class="footer-menu">
+                <a href="#">Cocina</a>
+                <a href="#">Oficina</a>
+                <a href="#">Jardín</a>
+                <a href="#">Cochera</a>
+                <a href="#">Dormitorio</a>
+            </nav>
+        </div>
+        <div>
+            <h3>Sobre Nosotros</h3>
+            <nav class="footer-menu">
+                <a href="#">Nuestra Historia</a>
+                <a href="#">Misión, visión y Valores</a>
+                <a href="#">Carreras</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Términos del Servicio</a>
+            </nav>
+        </div>
+        <div>
+            <h3>Soporte</h3>
+            <nav class="footer-menu">
+                <a href="#">Preguntas Frecuentes</a>
+                <a href="#">Ayuda en línea</a>
+                <a href="#">Confianza y Seguridad</a>
+            </nav>
+        </div>
+    </div>
 
-        <h3>Sobre Nosotros</h3>
-        <a href="#">Nuestra Historia</a>
-        <a href="#">Mision,Vision y Valores</a>
-        <a href="#">Carreras</a>
-        <a href="#">Politica de Privacidad</a>
-        <a href="#">Terminos del Servicio</a>
-
-        <h3>Soporte</h3>
-        <a href="#">Preguntas Frecuentes</a>
-        <a href="#">Ayuda en Linea</a>
-        <a href="#">Confianza y Seguridad</a>
-    </footer>
-
-    <!--COPYRIGHT-->
-    <p>Todos los derechos reservados - Tienda Mueble</p>
+    <p class="copyright">Todos los derechos Reservados, TiendaMuebles</p>
+</footer>
 
 </body>
 </html>
